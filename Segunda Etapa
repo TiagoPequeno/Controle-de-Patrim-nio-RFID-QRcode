@@ -1,0 +1,4 @@
+Para a próxima etapa... foi montado o circuito conforme https://www.filipeflop.com/blog/como-gravar-dados-no-cartao-rfid/ para a leitura e
+gravação de dados nos registros das tags aproximadas ao leitor RFID RC522... porém ocorreu erros de compilação devidos a não conversão de
+variaveis na verificação do código de Leitura_e_gravacao_de_cartoes_RFID.ino
+
