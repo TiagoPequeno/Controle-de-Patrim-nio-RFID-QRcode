@@ -13,48 +13,66 @@ C:\Users\ASUS\Documents\Arduino\Pequeno\Projetos\RFID controle do estoque\Leitur
 
 Leitura_e_gravacao_de_cartoes_RFID:124: error: invalid conversion from 'byte {aka unsigned char}' to 'MFRC522::StatusCode' [-fpermissive]
 
-Serial.println(mfrc522.GetStatusCodeName(status));
+     Serial.println(mfrc522.GetStatusCodeName(status));
+
                                                     ^
+
 In file included from C:\Users\ASUS\Documents\Arduino\Pequeno\Projetos\RFID controle do estoque\Leitura_e_gravacao_de_cartoes_RFID\Leitura_e_gravacao_de_cartoes_RFID.ino:5:0:
 
 C:\Users\ASUS\Documents\Arduino\libraries\rfid-rc522/MFRC522.h:384:36: error:   initializing argument 1 of 'static const __FlashStringHelper* MFRC522::GetStatusCodeName(MFRC522::StatusCode)' [-fpermissive]
 
-static const __FlashStringHelper *GetStatusCodeName(StatusCode code);
+  static const __FlashStringHelper *GetStatusCodeName(StatusCode code);
+
                                     ^
+
 Leitura_e_gravacao_de_cartoes_RFID:130: error: invalid conversion from 'byte {aka unsigned char}' to 'MFRC522::StatusCode' [-fpermissive]
 
-Serial.println(mfrc522.GetStatusCodeName(status));
-                                                ^
+     Serial.println(mfrc522.GetStatusCodeName(status));
+
+                                                    ^
+
 In file included from C:\Users\ASUS\Documents\Arduino\Pequeno\Projetos\RFID controle do estoque\Leitura_e_gravacao_de_cartoes_RFID\Leitura_e_gravacao_de_cartoes_RFID.ino:5:0:
 
 C:\Users\ASUS\Documents\Arduino\libraries\rfid-rc522/MFRC522.h:384:36: error:   initializing argument 1 of 'static const __FlashStringHelper* MFRC522::GetStatusCodeName(MFRC522::StatusCode)' [-fpermissive]
 
-static const __FlashStringHelper *GetStatusCodeName(StatusCode code);
-                                   ^
+  static const __FlashStringHelper *GetStatusCodeName(StatusCode code);
+
+                                    ^
+
 Leitura_e_gravacao_de_cartoes_RFID:153: error: invalid conversion from 'byte {aka unsigned char}' to 'MFRC522::StatusCode' [-fpermissive]
 
-Serial.println(mfrc522.GetStatusCodeName(status));
+     Serial.println(mfrc522.GetStatusCodeName(status));
+
                                                     ^
+
 In file included from C:\Users\ASUS\Documents\Arduino\Pequeno\Projetos\RFID controle do estoque\Leitura_e_gravacao_de_cartoes_RFID\Leitura_e_gravacao_de_cartoes_RFID.ino:5:0:
 
 C:\Users\ASUS\Documents\Arduino\libraries\rfid-rc522/MFRC522.h:384:36: error:   initializing argument 1 of 'static const __FlashStringHelper* MFRC522::GetStatusCodeName(MFRC522::StatusCode)' [-fpermissive]
 
-static const __FlashStringHelper *GetStatusCodeName(StatusCode code);
+  static const __FlashStringHelper *GetStatusCodeName(StatusCode code);
+
                                     ^
+
 Leitura_e_gravacao_de_cartoes_RFID:160: error: invalid conversion from 'byte {aka unsigned char}' to 'MFRC522::StatusCode' [-fpermissive]
 
-Serial.println(mfrc522.GetStatusCodeName(status));
+     Serial.println(mfrc522.GetStatusCodeName(status));
+
                                                     ^
+
 In file included from C:\Users\ASUS\Documents\Arduino\Pequeno\Projetos\RFID controle do estoque\Leitura_e_gravacao_de_cartoes_RFID\Leitura_e_gravacao_de_cartoes_RFID.ino:5:0:
 
 C:\Users\ASUS\Documents\Arduino\libraries\rfid-rc522/MFRC522.h:384:36: error:   initializing argument 1 of 'static const __FlashStringHelper* MFRC522::GetStatusCodeName(MFRC522::StatusCode)' [-fpermissive]
 
-static const __FlashStringHelper *GetStatusCodeName(StatusCode code);
+  static const __FlashStringHelper *GetStatusCodeName(StatusCode code);
+
                                     ^
+
 Leitura_e_gravacao_de_cartoes_RFID:163: error: 'lcd' was not declared in this scope
 
-lcd.setCursor(0, 1);
+   lcd.setCursor(0, 1);
+
    ^
+
 C:\Users\ASUS\Documents\Arduino\Pequeno\Projetos\RFID controle do estoque\Leitura_e_gravacao_de_cartoes_RFID\Leitura_e_gravacao_de_cartoes_RFID.ino: In function 'void modo_gravacao()':
 
 Leitura_e_gravacao_de_cartoes_RFID:198: error: invalid conversion from 'byte {aka unsigned char}' to 'MFRC522::PICC_Type' [-fpermissive]
@@ -137,8 +155,10 @@ In file included from C:\Users\ASUS\Documents\Arduino\Pequeno\Projetos\RFID cont
 
 C:\Users\ASUS\Documents\Arduino\libraries\rfid-rc522/MFRC522.h:384:36: error:   initializing argument 1 of 'static const __FlashStringHelper* MFRC522::GetStatusCodeName(MFRC522::StatusCode)' [-fpermissive]
 
-static const __FlashStringHelper *GetStatusCodeName(StatusCode code);
+  static const __FlashStringHelper *GetStatusCodeName(StatusCode code);
+
                                     ^
+
 Leitura_e_gravacao_de_cartoes_RFID:273: error: invalid conversion from 'byte {aka unsigned char}' to 'MFRC522::StatusCode' [-fpermissive]
 
      Serial.println(mfrc522.GetStatusCodeName(status));
@@ -163,19 +183,24 @@ In file included from C:\Users\ASUS\Documents\Arduino\Pequeno\Projetos\RFID cont
 
 C:\Users\ASUS\Documents\Arduino\libraries\rfid-rc522/MFRC522.h:384:36: error:   initializing argument 1 of 'static const __FlashStringHelper* MFRC522::GetStatusCodeName(MFRC522::StatusCode)' [-fpermissive]
 
-static const __FlashStringHelper *GetStatusCodeName(StatusCode code);
-                                  ^
+  static const __FlashStringHelper *GetStatusCodeName(StatusCode code);
+
+                                    ^
+
 Leitura_e_gravacao_de_cartoes_RFID:291: error: invalid conversion from 'byte {aka unsigned char}' to 'MFRC522::StatusCode' [-fpermissive]
 
-Serial.println(mfrc522.GetStatusCodeName(status));
-                                  ^
+     Serial.println(mfrc522.GetStatusCodeName(status));
+
+                                                    ^
 
 In file included from C:\Users\ASUS\Documents\Arduino\Pequeno\Projetos\RFID controle do estoque\Leitura_e_gravacao_de_cartoes_RFID\Leitura_e_gravacao_de_cartoes_RFID.ino:5:0:
 
 C:\Users\ASUS\Documents\Arduino\libraries\rfid-rc522/MFRC522.h:384:36: error:   initializing argument 1 of 'static const __FlashStringHelper* MFRC522::GetStatusCodeName(MFRC522::StatusCode)' [-fpermissive]
 
-static const __FlashStringHelper *GetStatusCodeName(StatusCode code);
-                                  ^
+  static const __FlashStringHelper *GetStatusCodeName(StatusCode code);
+
+                                    ^
+
 exit status 1
 invalid conversion from 'byte {aka unsigned char}' to 'MFRC522::StatusCode' [-fpermissive]
 
